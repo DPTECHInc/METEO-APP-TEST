@@ -22,7 +22,7 @@ export default function App() {
     return (
         <View style={styles.container}>
             <Header />
-            <Weather />
+            <Weather style={styles.weather} />
             <Footer />
             <StatusBar style="auto" />
         </View>
@@ -40,9 +40,9 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
     },
+    weather: {},
     footer: {
-        paddingTop: "100%",
-        justifyContent: "center",
         alignItems: "center",
+        justifyContent: "center",
     },
 });
